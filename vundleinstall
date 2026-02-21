@@ -1,0 +1,15 @@
+#!/bin/bash
+
+homeVundle="$HOME/.vim/bundle/Vundle.vim"
+
+if [ -e $homeVundle ]; then
+	echo "You have Vundle installed."
+else
+	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+	echo "Vundle installation complete."
+fi
+
+cp vim-config/.vimrc $HOME
+
+vim +PluginInstall +qall
+
