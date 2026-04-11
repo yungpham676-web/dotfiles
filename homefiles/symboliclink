@@ -1,0 +1,7 @@
+#!/bin/bash
+
+mv ~/.bashrc ~/.bashrcbackup
+
+ln -s ~/dotfiles/homefiles/.bashrc ~/.bashrc
+
+source ~/.bashrc
