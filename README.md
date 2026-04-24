@@ -1,5 +1,10 @@
-# Note
-When running the script, it shows an error for the color scheme, but I check after running the script and the colorscheme shows to be working.
+# Dotfiles
 
-# Citations
-IF statement and conditions: https://www.pluralsight.com/resources/blog/cloud/conditions-in-bash-scripting-if-statements
+This dotfile repository contains a
+
+## Improvements
+
+In this repository, there are certains areas I could improve:
+- Addings comments in your scripts, explaining what they do
+- 
+
