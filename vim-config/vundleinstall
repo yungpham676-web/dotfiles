@@ -2,6 +2,7 @@
 
 homeVundle="$HOME/.vim/bundle/Vundle.vim"
 
+# Check if you have vundle and if not, it will be installed
 if [ -e $homeVundle ]; then
 	echo "You have Vundle installed."
 else
@@ -9,6 +10,7 @@ else
 	echo "Vundle installation complete."
 fi
 
+# Copies .vimrc to home directory
 cp vim-config/.vimrc $HOME
 
 vim +PluginInstall +qall

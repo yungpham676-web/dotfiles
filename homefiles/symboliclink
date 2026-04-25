@@ -1,7 +1,10 @@
 #!/bin/bash
 
+# Backup current .bashrc file
 mv ~/.bashrc ~/.bashrcbackup
 
+# Create symbolic link from .bashrc file in the dotfiles directory to home directory
 ln -s ~/dotfiles/homefiles/.bashrc ~/.bashrc
+
 
 source ~/.bashrc

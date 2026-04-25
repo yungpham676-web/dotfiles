@@ -6,5 +6,5 @@ This dotfile repository contains a
 
 In this repository, there are certains areas I could improve:
 - Addings comments in your scripts, explaining what they do
-- 
+- Fixing error output for color schems in `.vimrc` script
 
